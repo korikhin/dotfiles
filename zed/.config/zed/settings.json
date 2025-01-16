@@ -1,0 +1,190 @@
+{
+  "agent": {
+    "default_profile": "ask",
+    "dock": "right",
+    "enable_feedback": false
+  },
+  "agent_servers": {
+    "amp-acp": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "auto_update": false,
+  "auto_update_extensions": {
+    "make": true
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 30000
+    }
+  },
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font Mono",
+  "buffer_font_size": 16.0,
+  "buffer_font_weight": 300.0,
+  "cli_default_open_behavior": "new_window",
+  "code_lens": "menu",
+  "collaboration_panel": {
+    "default_width": 400,
+    "dock": "left"
+  },
+  "completion_menu_item_kind": "symbol",
+  "context_servers": {
+    "mcp-server-github": {
+      "enabled": true,
+      "remote": false,
+      "settings": {}
+    },
+    "mcp-server-sequential-thinking": {
+      "enabled": false,
+      "remote": false,
+      "settings": {}
+    }
+  },
+  "current_line_highlight": "none",
+  "cursor_blink": false,
+  "diff_view_style": "split",
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "zed"
+  },
+  "edit_predictions_disabled_in": [
+    "string",
+    "comment"
+  ],
+  "excerpt_context_lines": 10,
+  "extend_comment_on_newline": false,
+  "file_types": {
+    "Dockerfile": [
+      "Dockerfile.*",
+      "*.Dockerfile"
+    ]
+  },
+  "git": {
+    "file_diff": {
+      "show_full_file": false
+    },
+    "gutter_debounce": 200,
+    "inline_blame": {
+      "delay_ms": 400,
+      "enabled": false,
+      "location": "status_bar"
+    }
+  },
+  "git_panel": {
+    "commit_title_max_length": 80,
+    "default_width": 400,
+    "dock": "left",
+    "entry_primary_click_action": "file_diff",
+    "file_icons": true,
+    "status_style": "label_color",
+    "tree_view": true
+  },
+  "icon_theme": "Catppuccin Macchiato",
+  "journal": {
+    "hour_format": "hour24"
+  },
+  "languages": {
+    "LaTeX": {
+      "soft_wrap": "bounded"
+    },
+    "Markdown": {
+      "show_whitespaces": "trailing",
+      "soft_wrap": "bounded"
+    }
+  },
+  "lsp": {
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "build": {
+            "args": [
+              "-X",
+              "compile",
+              "%f",
+              "--only-cached",
+              "--keep-intermediates",
+              "--keep-logs",
+              "--synctex",
+              "--outdir",
+              "build"
+            ],
+            "executable": "tectonic",
+            "onSave": true
+          },
+          "latexindent": {
+            "modifyLineBreaks": true
+          }
+        }
+      }
+    },
+    "tinymist": {
+      "settings": {
+        "exportPdf": "onSave",
+        "outputPath": "$root/$name"
+      }
+    }
+  },
+  "minimap": {
+    "max_width_columns": 90,
+    "show": "always",
+    "thumb_border": "right_open"
+  },
+  "on_new_window": "empty_tab",
+  "outline_panel": {
+    "auto_fold_dirs": false,
+    "default_width": 400,
+    "dock": "left"
+  },
+  "preferred_line_length": 100,
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "auto_reveal_entries": false,
+    "default_width": 400,
+    "dock": "left",
+    "hide_root": true
+  },
+  "rounded_selection": false,
+  "scrollbar": {
+    "show": "never"
+  },
+  "sticky_scroll": {
+    "enabled": true
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "activate_on_close": "left_neighbour",
+    "close_position": "left",
+    "file_icons": true,
+    "git_status": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "terminal": {
+    "bell": "system",
+    "blinking": "on",
+    "dock": "right",
+    "env": {
+      "GIT_EDITOR": "zed --wait"
+    },
+    "font_weight": 300.0,
+    "option_as_meta": true,
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  "theme": "Hami Melon Dark - Custom",
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "ui_font_family": "JetBrainsMonoNL Nerd Font Mono",
+  "ui_font_weight": 300.0,
+  "use_system_window_tabs": true
+}
