@@ -1,0 +1,35 @@
+
+
+# <type>(optional_scope): <description: imperative mood>
+#
+# [optional body]
+#
+# [optional footer(s)]
+#
+# TYPES:
+#    all:      Changes to multiple files/modules/packages.
+#    breaking: Changes that should result in a new major version release.
+#    build:    Changes that affect the build system or external dependencies
+#    chore:    Regular maintenance tasks, updates, housekeeping (no production code change)
+#    ci:       Changes to CI configuration files and scripts
+#    doc:      Documentation only changes
+#    feat:     A new feature
+#    fix:      A bug fix
+#    perf:     A code change that improves performance
+#    refactor: A code change that neither fixes a bug nor adds a feature
+#    remove:   A code change that removes a feature.
+#    style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+#    test:     Adding missing tests or correcting existing tests
+#    todo:     Adding notes like NOTE: TODO: FIXME: WARNING:
+#
+#    Use plural if multiple items affected.
+#
+# EXAMPLES:
+#   all: replace interface{} with any
+#   fix!: this indicates a fix that also is a breaking change
+#   fix(net/url, net/http): relax CTL-in-URL validation to only ASCII CTLs
+#   feat(net/http): support disabling built-in HTTP/2 with a new build tag
+#   chore: update .gitignore
+#
+# REFERENCE:
+#   https://www.conventionalcommits.org/
