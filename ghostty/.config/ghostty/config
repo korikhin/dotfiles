@@ -1,0 +1,19 @@
+adjust-cell-height = 30%
+background-blur = true
+background-opacity = 0.9
+confirm-close-surface = false
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 15
+macos-non-native-fullscreen = padded-notch
+macos-option-as-alt = true
+macos-titlebar-style = hidden
+quick-terminal-animation-duration = 0
+quick-terminal-position = center
+shell-integration-features = no-cursor
+theme = Catppuccin Macchiato
+unfocused-split-fill = 1E1E2E
+window-padding-balance = true
+window-padding-x = 10
+window-padding-y = 10
+
+keybind = global:ctrl+backquote=toggle_quick_terminal

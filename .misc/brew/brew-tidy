@@ -1,0 +1,8 @@
+#!/usr/bin/env fish -i
+
+#:  * `tidy`
+#:
+#:  Upgrade outdated casks and formulae interactively. Requires `fzf`(1).
+
+brew upgrade (brew outdated --greedy | fzf; or return)
+brew cleanup

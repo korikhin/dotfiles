@@ -1,0 +1,157 @@
+{
+  "agent": {
+    "default_model": {
+      "model": "qwen2.5-coder:7b",
+      "provider": "ollama",
+    },
+    "default_profile": "ask",
+    "default_width": 650,
+  },
+  "auto_update": false,
+  "auto_update_extensions": {
+    "make": true,
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 60000,
+    },
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "collaboration_panel": {
+    "default_width": 400,
+  },
+  "colorize_brackets": true,
+  "cursor_blink": false,
+  "edit_predictions": {
+    "enabled_in_text_threads": false,
+    "mode": "eager",
+  },
+  "edit_predictions_disabled_in": ["string", "comment"],
+  "excerpt_context_lines": 10,
+  "extend_comment_on_newline": false,
+  "features": {
+    "edit_prediction_provider": "zed",
+  },
+  "file_types": {
+    "Dockerfile": ["Dockerfile[.-]*", "*[.-]Dockerfile"],
+  },
+  "git": {
+    "blame": {
+      "show_avatar": true,
+    },
+    "gutter_debounce": 200,
+    "inline_blame": {
+      "delay_ms": 1000,
+    },
+  },
+  "git_panel": {
+    "default_width": 400,
+    "sort_by_path": true,
+    "tree_view": true,
+  },
+  "icon_theme": "Catppuccin Macchiato",
+  "journal": {
+    "hour_format": "hour24",
+  },
+  "languages": {
+    "LaTeX": {
+      "soft_wrap": "preferred_line_length",
+    },
+    "Markdown": {
+      "soft_wrap": "preferred_line_length",
+    },
+  },
+  "lsp": {
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "build": {
+            "args": [
+              "-X",
+              "compile",
+              "%f",
+              "--only-cached",
+              "--keep-intermediates",
+              "--keep-logs",
+              "--synctex",
+              "--outdir",
+              "build",
+            ],
+            "executable": "tectonic",
+            "onSave": true,
+          },
+          "latexindent": {
+            "modifyLineBreaks": true,
+          },
+        },
+      },
+    },
+    "tinymist": {
+      "settings": {
+        "exportPdf": "onSave",
+        "outputPath": "$root/$name",
+      },
+    },
+  },
+  "minimap": {
+    "max_width_columns": 90,
+    "show": "always",
+    "thumb_border": "right_open",
+  },
+  "notification_panel": {
+    "default_width": 400,
+  },
+  "outline_panel": {
+    "auto_fold_dirs": false,
+    "default_width": 400,
+  },
+  "preferred_line_length": 100,
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "auto_reveal_entries": false,
+    "default_width": 400,
+    "hide_root": true,
+    "starts_open": false,
+  },
+  "rounded_selection": false,
+  "scrollbar": {
+    "show": "never",
+  },
+  "show_edit_predictions": true,
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+  },
+  "tabs": {
+    "activate_on_close": "left_neighbour",
+    "close_position": "left",
+    "file_icons": true,
+    "git_status": true,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "terminal": {
+    "alternate_scroll": "on",
+    "blinking": "on",
+    "default_width": 650,
+    "dock": "right",
+    "env": {
+      "GIT_EDITOR": "zed --wait",
+    },
+    "option_as_meta": true,
+    "toolbar": {
+      "breadcrumbs": false,
+    },
+  },
+  "theme": "Catppuccin Macchiato - No Italics",
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
+  "use_system_window_tabs": true,
+}
