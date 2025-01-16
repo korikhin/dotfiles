@@ -1,0 +1,9 @@
+#!/usr/bin/env fish
+
+#:  * `tidy`
+#:
+#:  Upgrade outdated casks and formulae interactively. Requires `fzf`(1).
+
+set -x FZF_DEFAULT_OPTS_FILE "$XDG_CONFIG_HOME/fzf/.fzfrc"
+
+brew upgrade (string replace -r ' .*' '' (brew outdated --greedy --verbose | fzf; or return))
