@@ -1,0 +1,37 @@
+[core]
+    pager = delta
+
+[init]
+    defaultBranch = main
+
+[interactive]
+    diffFilter = delta --color-only
+
+[merge]
+    conflictstyle = zdiff3
+
+[rebase]
+    updateRefs = true
+
+[delta]
+    navigate = true
+    side-by-side = true
+    syntax-theme = "Catppuccin Macchiato"
+
+    file-style = omit
+    hunk-label = ""
+    hunk-header-style = file syntax
+    hunk-header-decoration-style = "#6e738d" ul ol
+
+    plus-style           = syntax "#363a4f"
+    plus-emph-style      = syntax "#363a4f"
+    plus-non-emph-style  = syntax
+    minus-style          = syntax "#363a4f"
+    minus-emph-style     = syntax "#363a4f"
+    minus-non-emph-style = syntax
+
+    line-numbers-left-format  = ""
+    line-numbers-right-format = "│ {np:>3} │ "
+    line-numbers-plus-style   = "#a5adcb"
+    line-numbers-zero-style   = "#6e738d"
+    line-numbers-right-style  = "#6e738d"
