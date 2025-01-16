@@ -1,0 +1,20 @@
+font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 15
+adjust-cell-height = 12
+theme = catppuccin-macchiato
+background-opacity = 0.9
+background-blur = true
+unfocused-split-fill = #1E1E2E
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+confirm-close-surface = false
+quick-terminal-position = center
+quick-terminal-animation-duration = 0
+shell-integration-features = no-cursor
+macos-non-native-fullscreen = visible-menu
+macos-titlebar-style = hidden
+macos-option-as-alt = true
+
+# Keybinds
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
