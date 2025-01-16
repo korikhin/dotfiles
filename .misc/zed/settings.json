@@ -1,0 +1,8 @@
+{
+  // Use of custom SSH config per project
+  "terminal": {
+    "env": {
+      "GIT_SSH_COMMAND": "ssh -F ~/.ssh/config"
+    }
+  }
+}

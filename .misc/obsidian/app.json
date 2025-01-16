@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "Attachments",
+  "newFileFolderPath": "Limbo",
+  "readableLineLength": false,
+  "livePreview": true
+}

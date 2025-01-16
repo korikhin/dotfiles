@@ -1,0 +1,6 @@
+\.git
+\.gitignore
+\.misc
+
+\.DS_Store
+^/README.*
