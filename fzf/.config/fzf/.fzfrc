@@ -1,0 +1,26 @@
+--border=none
+--color=bg+:#313244
+--color=bg:-1
+--color=border:#494d64
+--color=fg+:#cad3f5
+--color=fg:-1
+--color=gutter:-1
+--color=header:#a6da95
+--color=hl+:#8aadf4
+--color=hl:#8aadf4
+--color=info:#eed49f
+--color=label:#a6da95
+--color=marker:#c6a0f6
+--color=pointer:#c6a0f6
+--color=prompt:#c6a0f6
+--color=spinner:#f5a97f
+--cycle
+--info=inline-right
+--layout=reverse
+--marker='•'
+--min-height=15
+--multi
+--pointer='█'
+--prompt='❯ '
+--separator='·'
+--tiebreak=begin,length
