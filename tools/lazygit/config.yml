@@ -1,0 +1,17 @@
+git:
+  paging:
+    pager: "delta --paging=never"
+  commit:
+    autoWrapWidth: 80
+gui:
+  sidePanelWidth: 0.25
+  scrollHeight: 1
+  scrollPastBottom: false
+  skipDiscardChangeWarning: true
+  shortTimeFormat: "04:20"
+  showListFooter: false
+  showFileTree: false
+  showNumstatInFilesView: false
+  showCommandLog: false
+  showBottomLine: false
+  showPanelJumps: false

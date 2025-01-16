@@ -1,0 +1,10 @@
+// Demonstration of how to set up a custom SSH config per project.
+// Alternatively, you could use the `core.sshCommand` in your
+// local Git config, but it's nice to have everything in one place.
+{
+  "terminal": {
+    "env": {
+      "GIT_SSH_COMMAND": "ssh -F ~/.ssh/config"
+    }
+  }
+}
