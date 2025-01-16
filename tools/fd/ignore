@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.git/
+.idea/
+.venv/
+ENV/
+env.bak/
+env/
+venv.bak/
+venv/
