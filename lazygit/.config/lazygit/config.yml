@@ -1,0 +1,19 @@
+git:
+  commit:
+    autoWrapWidth: 80
+  pagers:
+    - pager: "delta --paging=never"
+    # - externalDiffCommand: difft --color=always
+
+gui:
+  scrollHeight: 1
+  scrollPastBottom: false
+  shortTimeFormat: 04:20
+  showBottomLine: false
+  showCommandLog: false
+  showFileTree: false
+  showListFooter: false
+  showNumstatInFilesView: false
+  showPanelJumps: false
+  sidePanelWidth: 0.25
+  skipDiscardChangeWarning: true
