@@ -1,0 +1,28 @@
+adjust-cell-height = 20%
+background-blur = true
+background-opacity = 0.95
+confirm-close-surface = false
+font-family = JetBrainsMono Nerd Font Mono
+font-feature = -calt
+font-size = 15
+macos-non-native-fullscreen = padded-notch
+macos-option-as-alt = true
+macos-titlebar-style = hidden
+quick-terminal-animation-duration = 0
+quick-terminal-position = center
+shell-integration-features = no-cursor
+theme = Catppuccin Mocha
+unfocused-split-fill = 1E1E2E
+window-padding-balance = true
+window-padding-x = 10
+window-padding-y = 10
+
+keybind = global:ctrl+backquote=toggle_quick_terminal
+
+keybind = Resize split/arrow_up=resize_split:up,10
+keybind = Resize split/arrow_down=resize_split:down,10
+keybind = Resize split/arrow_left=resize_split:left,10
+keybind = Resize split/arrow_right=resize_split:right,10
+keybind = Resize split/escape=deactivate_key_table
+keybind = Resize split/catch_all=ignore
+keybind = ctrl+a=activate_key_table:Resize split

@@ -1,0 +1,23 @@
+--multi
+--cycle
+--tiebreak=begin,length
+--layout=reverse
+--min-height=15
+--border=none
+--marker='•'
+--prompt='❯ '
+--separator='·'
+--info=inline-right
+--color=bg:-1
+--color=bg+:0
+--color=fg+:-1
+--color=hl:4
+--color=hl+:4
+--color=border:0
+--color=header:2
+--color=label:2
+--color=prompt:2
+--color=pointer:1
+--color=marker:1
+--color=info:3
+--color=spinner:3

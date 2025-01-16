@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "baseFontSize": 18,
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "enabledCssSnippets": ["code-blocks"],
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "nativeMenus": false
+}
